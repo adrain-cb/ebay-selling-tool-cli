@@ -8,7 +8,7 @@ def main():
 
 
     ## ENTER APP NAME GIVEN BY EBAY HERE
-    # APP_NAME = 
+    APP_NAME = str(input("Please enter your eBay app ID: "))
     ENTRIES_PER_PAGE = '100'
 
     ROOT_URL = 'http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findCompletedItems&SERVICE-NAME=FindingService&SERVICE-VERSION=1.11.0&paginationInput.entriesPerPage=' + ENTRIES_PER_PAGE + '&RESPONSE-DATA-FORMAT=JSON&GLOBAL-ID=EBAY-US&REST-PAYLOAD&SECURITY-APPNAME='+APP_NAME

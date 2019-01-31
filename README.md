@@ -5,7 +5,12 @@
 	- Sign up for a developer account
 	- Create an API key
 	- Copy app ID given to you
-	- Copy this app ID into the variable named ~~~~APP_NAME~~~~
 	- Run from the command line:
-		- ~~~~$python ebay-cli.py
-:w
+		- $python ebay-cli.py
+	- Copy and paste ebay app id when prompted
+
+
+## TODO:
+	- Refactor to be object oriented
+	- Add function to remove outliers from price data
+	- Fix function to create dictionary of items with their respective prices
